@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <ItemGroup>
-    <ProjectReference Include="..\ProjetQiraa.Domain\ProjetQiraa.Domain.csproj" />
+    <ProjectReference Include="..\OpenQiraa.Domain\OpenQiraa.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -13,5 +12,4 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
 </Project>

@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src\OpenQiraa.Api\OpenQiraa.Api.csproj" />
+    <Project Path="src\OpenQiraa.Application\OpenQiraa.Application.csproj" />
+    <Project Path="src\OpenQiraa.Domain\OpenQiraa.Domain.csproj" />
+    <Project Path="src\OpenQiraa.Infrastructure\OpenQiraa.Infrastructure.csproj" />
+  </Folder>
+</Solution>

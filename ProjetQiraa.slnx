@@ -1,8 +1,0 @@
-<Solution>
-  <Folder Name="/src/">
-    <Project Path="src/ProjetQiraa.Api/ProjetQiraa.Api.csproj" />
-    <Project Path="src/ProjetQiraa.Application/ProjetQiraa.Application.csproj" />
-    <Project Path="src/ProjetQiraa.Domain/ProjetQiraa.Domain.csproj" />
-    <Project Path="src/ProjetQiraa.Infrastructure/ProjetQiraa.Infrastructure.csproj" />
-  </Folder>
-</Solution>
