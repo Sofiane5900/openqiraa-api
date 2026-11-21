@@ -9,7 +9,6 @@ dotnet_style_qualification_for_field = false:warning
 dotnet_style_qualification_for_property = false:warning
 
 # Modern language features
-csharp_style_prefer_primary_constructors = true:suggestion
 csharp_prefer_braces = true:warning
 dotnet_style_prefer_collection_expression = true:suggestion
 
