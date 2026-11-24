@@ -5,4 +5,7 @@
     <Project Path="src\OpenQiraa.Domain\OpenQiraa.Domain.csproj" />
     <Project Path="src\OpenQiraa.Infrastructure\OpenQiraa.Infrastructure.csproj" />
   </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/OpenQiraa.Domain.Tests/OpenQiraa.Domain.Tests.csproj" />
+  </Folder>
 </Solution>
