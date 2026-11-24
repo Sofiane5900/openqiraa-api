@@ -99,15 +99,15 @@ Chaque user story a un identifiant pour pouvoir la reprendre telle quelle dans l
 
 ### E4 — Lecteur
 
-| ID | User story | Critères d'acceptation | Prio |
-| --- | --- | --- | --- |
-| READ-1 | En tant qu'utilisateur, je lis un passage en arabe, de droite à gauche | Police arabe lisible, taille réglable, interligne confortable | M |
-| READ-2 | En tant qu'utilisateur, je vois chaque mot marqué selon son statut | Nouveau : pointillés bleus ; En cours 1 à 4 : pointillés jaunes de plus en plus pâles ; Connu et Ignoré : sans marque | M |
-| READ-3 | En tant qu'utilisateur, je touche ou survole un mot pour voir sa fiche | Traduction, racine, lemme, catégorie grammaticale ; affichage en moins de 200 ms | M |
-| READ-4 | En tant qu'utilisateur, je change le statut d'un mot depuis sa fiche | Boutons Nouveau, 1, 2, 3, 4, Connu, Ignorer ; raccourcis clavier 1 à 4, K et X ; le statut s'applique au lemme, donc à toutes ses formes dans tous les livres | M |
-| READ-5 | En tant qu'utilisateur, je choisis l'affichage des voyelles courtes | Trois modes : partout, seulement sur les mots non connus, jamais | M |
+| ID | User story | Critères d'acceptation                                                                                                     | Prio |
+| --- | --- |----------------------------------------------------------------------------------------------------------------------------| --- |
+| READ-1 | En tant qu'utilisateur, je lis un passage en arabe, de droite à gauche | Police arabe lisible, taille réglable, interligne confortable                                                              | M |
+| READ-2 | En tant qu'utilisateur, je vois chaque mot marqué selon son statut | Nouveau : pointillés bleus ; En cours 1 à 4 : pointillés jaunes de plus en plus pâles ; Connu et Ignoré : sans marque      | M |
+| READ-3 | En tant qu'utilisateur, je touche ou survole un mot pour voir sa fiche | Traduction, racine, lemme ; affichage en moins de 200 ms                                                                   | M |
+| READ-4 | En tant qu'utilisateur, je change le statut d'un mot depuis sa fiche | Boutons Nouveau, 1, 2, 3, 4, Connu, Ignorer ; le statut s'applique au lemme, donc à toutes ses formes dans tous les livres | M |
+| READ-5 | En tant qu'utilisateur, je choisis l'affichage des voyelles courtes | Trois modes : partout, seulement sur les mots non connus, jamais                                                           | M |
 | READ-6 | En tant qu'utilisateur, je marque toute la page comme lue | Bouton « Page terminée » : les mots restants en Nouveau passent en Connu (option désactivable) ; statistiques mises à jour | S |
-| READ-7 | En tant qu'utilisateur, j'affiche la traduction d'une phrase | Traduction de phrase seulement si elle existe dans le livre source ; sinon le bouton n'apparaît pas | S |
+| READ-7 | En tant qu'utilisateur, j'affiche la traduction d'une phrase | Traduction de phrase seulement si elle existe dans le livre source ; sinon le bouton n'apparaît pas                        | S |
 
 ## 5. Exigences fonctionnelles — vocabulaire et progression
 

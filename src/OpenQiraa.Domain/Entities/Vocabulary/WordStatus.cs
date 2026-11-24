@@ -1,6 +1,6 @@
 namespace OpenQiraa.Domain.Entities;
 
-public enum WordStatus
+public enum LemmaStatus
 {
     New,
     Learning1 = 1,

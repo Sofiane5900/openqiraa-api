@@ -8,8 +8,15 @@ public class Root : BaseEntity
 
     public Root(string arabicLetters)
     {
-        if (string.IsNullOrWhiteSpace(arabicLetters))
-            throw new DomainException("Les lettres sont requises.");
-        ArabicLetters = arabicLetters.Trim();
+        var letters = arabicLetters.Trim();
+
+        if (letters.Length < 3 || letters.Length > 5)
+            throw new DomainException(
+                "Roots should not be less than 3 letters, or more than 5 letters."
+            );
+        if (string.IsNullOrWhiteSpace(letters))
+            throw new DomainException("Letters are required.");
+
+        ArabicLetters = letters;
     }
 }

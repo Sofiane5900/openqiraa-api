@@ -11,13 +11,15 @@ public class Lemma : BaseEntity
     public Lemma(string arabicText, string definition, Guid rootId)
     {
         if (string.IsNullOrWhiteSpace(arabicText))
-            throw new DomainException("Le texte est requis.");
+        {
+            throw new DomainException("A text is required.");
+        }
         ArabicText = arabicText.Trim();
         if (string.IsNullOrWhiteSpace(definition))
-            throw new DomainException("La définition est requise.");
+            throw new DomainException("A definition is required.");
         Definition = definition.Trim();
         if (rootId == Guid.Empty)
-            throw new DomainException("Les racines sont requises.");
+            throw new DomainException("Roots are required.");
         RootId = rootId;
     }
 }
