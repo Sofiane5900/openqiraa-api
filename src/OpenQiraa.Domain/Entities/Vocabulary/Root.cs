@@ -7,7 +7,7 @@ public class Root : BaseEntity
 {
     public string ArabicLetters { get; private set; }
 
-    public Root(string arabicLetters)
+    public Root(string? arabicLetters)
     {
         if (string.IsNullOrWhiteSpace(arabicLetters))
         {
