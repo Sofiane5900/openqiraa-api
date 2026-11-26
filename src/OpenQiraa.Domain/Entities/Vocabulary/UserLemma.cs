@@ -25,7 +25,7 @@ public sealed class UserLemma : BaseEntity
         StatusChangedAt = DateTime.UtcNow;
     }
 
-    public void ChangeStatus(LemmaStatus newStatus)
+    public void ChangeStatus(LemmaStatus newStatus, DateTime date)
     {
         if (Status == newStatus)
         {
@@ -36,7 +36,8 @@ public sealed class UserLemma : BaseEntity
         {
             throw new ArgumentOutOfRangeException(nameof(newStatus));
         }
+
         Status = newStatus;
-        StatusChangedAt = DateTime.UtcNow;
+        StatusChangedAt = date;
     }
 }
