@@ -3,7 +3,7 @@ using OpenQiraa.Domain.Vocabulary;
 
 namespace OpenQiraa.Domain.Entities;
 
-public class Root : BaseEntity
+public sealed class Root : BaseEntity
 {
     public string ArabicLetters { get; private set; }
 
